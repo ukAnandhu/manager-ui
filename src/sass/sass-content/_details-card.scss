@@ -1,0 +1,24 @@
+.details-card {
+   width: 49%;
+   background-color: $bg-primary;
+   height: 4rem;
+   margin-top: 1.1875rem;
+   padding: .5rem 1rem;
+   border-radius: .4375rem;
+
+   @media (max-width: '900px') {
+      width: 100%;
+      height: 3.75rem;
+   }
+
+   &__heading {
+      font-size: .875rem;
+      color: $navbar-primary;
+   }
+
+   &__text {
+      font-size: 1.25rem;
+      color: $manager-text;
+      font-weight: 600;
+   }
+}

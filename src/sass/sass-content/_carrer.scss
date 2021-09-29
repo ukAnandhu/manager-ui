@@ -1,0 +1,21 @@
+.carrer {
+   height: 590px;
+   background-color: white;
+   border-radius: .625rem;
+   margin-bottom: 1rem;
+   padding: 1rem;
+
+   &__heading {
+      font-size: 1.375rem;
+      color: $header-primary;
+      font-weight: 600;
+      margin-bottom: .875rem;
+   }
+
+   &__card-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 32.125rem;
+   }
+}

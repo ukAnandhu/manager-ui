@@ -1,0 +1,12 @@
+.mobile-hidden {
+   @media (max-width: '900px') {
+      display: none;
+   }
+}
+
+.mobile-visible {
+   display: none;
+   @media (max-width: '900px') {
+      display: block;
+   }
+}

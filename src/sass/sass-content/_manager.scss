@@ -1,0 +1,81 @@
+.manager {
+   padding: 1.25rem;
+   background-color: white;
+   height: 11.875rem;
+   border-radius: .625rem;
+   display: flex;
+   gap: 1.75rem;
+   margin-bottom: 1.4375rem;
+
+   &__first {
+      background-color: $manager-bg;
+      border-radius: .625rem;
+   }
+
+   &__second {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+
+      @media (max-width: '900px') {
+         justify-content: space-evenly;
+      }
+   }
+
+   &__name {
+      font-size: 1.875rem;
+      font-weight: 600;
+      color: $header-primary;
+      margin-bottom: .8125rem;
+
+      @media (max-width: '900px') {
+         font-size: 1.25rem;
+      }
+
+      &--light {
+         color: $navbar-primary;
+         font-size: 1rem;
+
+         @media (max-width: '900px') {
+            font-size: .875rem;
+         }
+      }
+   }
+
+   &__details-container {
+      display: flex;
+      width: 80%;
+      justify-content: space-between;
+   }
+
+   &__details {
+      display: flex;
+      flex-direction: column;
+      gap: .625rem;
+
+      &--inner {
+         display: flex;
+         width: 9.375rem;
+
+         @media (max-width: '900px') {
+            width: 7.5rem;
+         }
+
+         & img {
+            margin-right: .375rem;
+         }
+      }
+
+      &--heading {
+         color: $navbar-primary;
+         font-weight: 600;
+         font-size: .875rem;
+      }
+
+      &--text {
+         color: $manager-text;
+         font-size: 1.125rem;
+         font-weight: 600;
+      }
+   }
+}

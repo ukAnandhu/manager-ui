@@ -1,0 +1,38 @@
+.header-bar {
+   grid-column: 1 / 13;
+   grid-row: 1/2;
+   height: 2.875rem;
+   background-color: white;
+   border-radius: .625rem;
+   padding-left: 1.875rem;
+   margin-bottom: 1.125rem;
+
+   @media (max-width: '900px') {
+      grid-column: 1/5;
+      padding-left: 1.25rem;
+   }
+
+   &-container {
+      height: 100%;
+      display: flex;
+      align-items: center;
+
+      & > * {
+         margin-right: 1rem;
+
+         @media (max-width: '900px') {
+            margin-right: .625rem;
+         }
+      }
+   }
+
+   &__text {
+      color: $heading-primary;
+      font-size: .875rem;
+      font-weight: 600;
+
+      &--light {
+         color: $heading-light;
+      }
+   }
+}

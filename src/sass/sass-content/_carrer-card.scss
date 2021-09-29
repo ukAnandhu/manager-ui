@@ -1,0 +1,33 @@
+.carrer-card {
+   background-color: $bg-primary;
+   padding: .625rem 1rem;
+   border-radius: .4375rem;
+   &__first {
+      display: flex;
+      margin-bottom: .625rem;
+      width: 33%;
+      align-items: center;
+
+      & img {
+         margin-right: .875rem;
+      }
+   }
+
+   &__second {
+      width: 70%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   &-text {
+      color: $header-primary;
+      font-size: 1.125rem;
+      font-weight: 600;
+   }
+
+   &-date {
+      font-size: 1.125rem;
+      color: $carrer-text;
+   }
+}

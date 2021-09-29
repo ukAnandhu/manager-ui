@@ -3,8 +3,8 @@
 # live project
  live project- https://vigilant-keller-95a9af.netlify.app
  
- # Modern Grid used
-   flex-box,Grid
+ # Modern CSS-Grid used
+   flex-Grid used
    
 # Naming convention
  Naming Convention - BEM

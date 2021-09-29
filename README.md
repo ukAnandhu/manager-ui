@@ -1,13 +1,14 @@
-# manager-ui
+# LogiDots-Test
 
 # live project
  live project- https://vigilant-keller-95a9af.netlify.app
  
- # Grid used
-  Modern Grid used
-  
+ # Modern Grid used
+   flex-box,Grid
+   
 # Naming convention
- Naming Convention
+ Naming Convention - BEM
  
-# SASS
- used Sass
+# Preprocessor
+  Sass preprossor used for better code splitting
+ 
